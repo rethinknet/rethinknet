@@ -1,0 +1,5 @@
+
+- pip install -r ./requirements.py
+- python ./setup.py build_ext -i
+- mv calc_score.cpython* rethinknet/
+- python ./main.py
